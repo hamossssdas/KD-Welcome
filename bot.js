@@ -13,7 +13,7 @@ client.on('message', message => {
 
 const moment = require('moment');
 client.on("guildMemberAdd", member => {
-let welcomer = member.guild.channels.find("name","chat");
+let welcomer = member.guild.channels.find("name","chat-minecraft");
       if(!welcomer) return;
       if(welcomer) {
          moment.locale('ar-ly');
@@ -35,7 +35,7 @@ let welcomer = member.guild.channels.find("name","chat");
 const fs = require('fs');
 client.on("guildMemberAdd", member => {
       
-      const welcomer = member.guild.channels.find("name","chat"); //اسم روم
+      const welcomer = member.guild.channels.find("name","chat-minecraft"); //اسم روم
                 
       var Canvas = require('canvas')
       var jimp = require('jimp')
