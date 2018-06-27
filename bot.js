@@ -92,7 +92,7 @@ client.on("guildMemberAdd", member => {
                               ctx.fontSize = '28px';
                               ctx.fillStyle = "#FFFFFF";
                               ctx.textAlign = "center";
-   ctx.fillText(` WELCOM TO 𝕂𝕀ℕ𝔾𝔻𝕆𝕄 𝕆𝔽 𝔻𝔼𝔸𝕋ℍ SERVER${member.guild.name} ` , 200, 190);
+   ctx.fillText(` WELCOM TO KINGDOM OF DEATH SERVER${member.guild.name} ` , 200, 190);
    
    
 
