@@ -8,12 +8,12 @@ console.log("Welcome Again !");
   return channel.send(` 
 **
 **
-**
 السلام عليكم
-:small_blue_diamond: - السلام عليكم ورحمة الله وبركاته ..
-نورونا وحياكم الله ف روماتنا الصوتيه :blue_heart::blue_heart:. ,   https://discord.gg/vAEjYFb
+:earth_asia:بعض الاشخاص يبحثون عن مكان جميل :heart: ,   https://discord.gg/vAEjYFb
+ والبعض يجعل المكان جميلا:black_heart: . 
+Ꮃelcome Ꭲo Ꮪerver Royal Server
+حلمنه نوصل 500 عضو**
 
-حلمنه نوصل500 عضو**
 
 
  ${member} .... الدعوه خاصه لك يا قلبي .
@@ -28,15 +28,14 @@ client.on("guildMemberAdd", member => {
 **
 **
 السلام عليكم
-:small_blue_diamond: - السلام عليكم ورحمة الله وبركاته ..
-نورونا وحياكم الله ف روماتنا الصوتيه :blue_heart::blue_heart:. ,   https://discord.gg/vAEjYFb
-
-حلمنه نوصل500 عضو**
+:earth_asia:بعض الاشخاص يبحثون عن مكان جميل :heart: ,   https://discord.gg/vAEjYFb
+ والبعض يجعل المكان جميلا:black_heart: . 
+Ꮃelcome Ꭲo Ꮪerver Royal Server
+حلمنه نوصل 500 عضو**
 
 
  ${member} .... الدعوه خاصه لك يا قلبي .
-**`)
+**`) 
 }).catch(console.error)
-
 })
-client.login ("NDU1NTU5NzMxODEwMDA5MDk5.Di8bng.Ajgioghj04eszjJn_JCkyHPIhp8")
+client.login(process.env.BOT_TOKEN);
